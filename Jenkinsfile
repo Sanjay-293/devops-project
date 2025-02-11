@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               sh "sudo docker build -t web-server ." 
+               sh "docker build -t web-server ." 
             }
         }
         
         stage('Deploy') { 
             steps {
-                sh"sudo docker run -itd -p 80:80 web-server" 
+                sh "docker run -itd -p 80:80 web-server" 
             }
         }
     }
