@@ -1,0 +1,12 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "DevOps project based on Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
